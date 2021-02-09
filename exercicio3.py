@@ -24,6 +24,7 @@ cursor.execute("create table if not exists cliente \
 
 print('Tabela criada com sucesso.')
 
+# inserir vários dados
 cursor.execute('INSERT or IGNORE into cliente values (1, "cliente 1", "111.111.111-11", '\
     ' "1.111.111", "1111-1111", "11111-1111", "cliente1@tabela.com", "rua 1", '\
     ' "1", "dos clientes", "cidade 1", "CC", "11111-000")')
@@ -34,6 +35,7 @@ cursor.execute('INSERT or IGNORE into cliente values (3, "cliente 3", "111.111.1
     ' "3.333.333", "3333-3333", "33333-3333", "cliente3@tabela.com", "rua 3", '\
     ' "3", "dos clientes", "cidade 3", "CC", "33333-000")')
 
+# executa comando select para recuperar as informações
 for linha in cursor.execute("select * from cliente"):
     print(linha)
 
