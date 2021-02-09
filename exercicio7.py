@@ -40,6 +40,7 @@ cursor.executemany('insert into cliente (id, nome, CPF, RG, telefone, celular, '
     'values (null, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)', cliente)
 
 print('Dados inseridos com sucesso.')
+# executar comando select para recuperar as informações
 for linha in cursor.execute("select * from cliente"):
     print(linha)
 
