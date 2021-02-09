@@ -6,6 +6,7 @@ conexao = sqlite3.connect('cadastro.db')
 # criar um curso para manipulação dos dados e tabelas
 cursor = conexao.cursor()
 
+#listar linhas de coluna em ordem crescente
 for lista in conexao.execute("select * from cliente order by email asc"):
     print(f"ORDEM DOS E-MAILS: {lista[6]}")
 
