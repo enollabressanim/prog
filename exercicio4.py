@@ -1,5 +1,8 @@
 import sqlite3
 
+# O exercício 4 pede para listar todas as linhas e colunas armazenadas no banco de dados.
+# Para isso, foi organizado todos os dados da tabela cliente em listas
+
 # criar uma "conexão" com o banco de dados
 conexao = sqlite3.connect('cadastro.db')
 
