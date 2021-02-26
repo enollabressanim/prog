@@ -1,5 +1,5 @@
 import sqlite3
-# O exercício 11 pede para que que faça a exclusão de todas as linhas da tabela.
+# O exercício 11 pede para que faça a exclusão de todas as linhas da tabela.
 # A instrução DELETE é utilizada para fazer a exclusão de algo na linguagem SQL.
 # Neste caso ela está sendo usada para deletar todas as linhas da tabela cliente.
 
