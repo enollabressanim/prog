@@ -4,8 +4,9 @@ import sqlite3
 # Para que isso ocorra, é utilizado o UPDATE, atualizando os dados da tabela cliente, 
 # selecionando a coluna celular, para que a mesma seja atualizada.
 # Para que aja a atualização de apenas determinadas linhas, é necessario o uso do where, 
-# que tem como finalidade modificar apenas a linha que possui um valor já determinado, 
-# no caso, nesta situação, mudando apenas a coluna celular que possui o valor 22222-2222.
+# que tem como finalidade especificar que uma instrução da linguagem de manipulação de 
+# dados SQL deve afetar apenas as linhas que atendem aos critérios especificados, 
+# nesta situação, mudando apenas a coluna celular que possui o valor 22222-2222.
 # Usando o operador LIKE combinado com o caracter especial porcentagem (%),
 # há a indicação da posição que o conteúdo está sendo procurado no valor string do campo especificado.
 
