@@ -1,8 +1,9 @@
 import sqlite3
 
 # O exercício 13 pede para que altere a tabela adicionando uma nova coluna.
-# A instrução ALTER TABLE é utilizada para fazer alguma modificação a exclusão de algo na linguagem SQL.
-# Neste caso ela está sendo usada para deletar todas as linhas da tabela cliente.
+# A instrução ALTER TABLE é utilizada para fazer alguma modificação na tabela.
+# Neste caso, esta sendo usado o ADD COLUMN para adicionar uma nova coluna, 
+# sendo deminominada como idade.
 
 # criar uma "conexão" com o banco de dados
 conexao = sqlite3.connect('cadastro.db')
