@@ -1,5 +1,11 @@
 import sqlite3
 
+# O exercício 6 pede para listar todas as linhas e colunas armazenadas 
+# no banco de dados ordenadas por alguma coluna de escolha particular,
+# sendo ordenadas na ordem reversa da ordem utilizada no exercício anterior.
+# Para que isso aconteça, é selecionado todos os dados da tabela cliente
+# e assim sendo ordenada pelo e-mail na ordem descrescente.
+
 # criar uma "conexão" com o banco de dados
 conexao = sqlite3.connect('cadastro.db')
 
